@@ -1,0 +1,58 @@
+/*  모든 요소들은 default 마진, 패딩 제거 */
+*{margin: 0; padding: 0;}
+ 
+/* header 영역  */
+header{ 
+    padding: 5px;
+    background-color: white;
+}
+ 
+header a{text-decoration: none; color: #333333;}
+ 
+/* nav 영역 */
+nav{
+    margin-top: 10px; 
+   
+}
+aside#right{
+    float: right;
+    width: 12em;
+}
+aside#right #login input{
+    margin-bottom: 5px;
+}
+nav ul{
+    list-style: none;
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
+    padding-left: 100px;
+}
+ 
+nav ul li{
+    display: inline;
+    margin-left: 200px;
+}
+ 
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 3em;
+    text-transform: uppercase;
+}
+ 
+nav ul li a:hover{ text-decoration: underline;}
+
+/* 가운데 본문 영역 */
+div#main2{
+    background-color: #fff29a;
+    height: 500px;
+}
+ 
+/* footer영역 */
+footer{
+    clear: both;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 1em 0px;
+}

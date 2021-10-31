@@ -1,0 +1,66 @@
+.logform{
+	display: flex;
+	height: 500px;
+	padding-top: 20px;
+	justify-content: center;
+    align-items: center;
+	background-color: #f4f4f4;
+	margin: 90px 40px 0px 40px;
+}
+.joinform{
+	display: flex;
+	height: 800px;
+	padding-top: 20px;
+	justify-content: center;
+    align-items: center;
+	background-color: #f4f4f4;
+	margin: 90px 40px 0px 40px;
+}
+.inputID{
+	width: 500px;
+	height: 50px;
+	padding: auto;
+	margin: 20px 150px 10px 150px;
+}
+.inputPassword{
+	width: 500px;
+	height: 50px;
+	padding: auto;
+	margin: 20px 150px 10px 150px;
+}
+.inputName{
+	width: 500px;
+	height: 50px;
+	padding: auto;
+	margin: 20px 150px 10px 150px;
+}
+.inputID_num{
+	width: 500px;
+	height: 50px;
+	padding: auto;
+	margin: 20px 150px 10px 150px;
+}
+.inputAddress{
+	width: 500px;
+	height: 50px;
+	padding: auto;
+	margin: 20px 150px 10px 150px;
+}
+.inputTel{
+	width: 500px;
+	height: 50px;
+	padding: auto;
+	margin: 20px 150px 10px 150px;
+}
+.inputEmail{
+	width: 500px;
+	height: 50px;
+	padding: auto;
+	margin: 20px 150px 10px 150px;
+}
+.submit{
+	background-color: #7EAAE6;
+	width: 500px;
+	height: 30px;
+	margin: 20px 150px 10px 150px;
+}

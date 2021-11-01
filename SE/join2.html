@@ -1,0 +1,72 @@
+
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width", initial-scale="1">
+<link rel="stylesheet" href="./main.css"> 
+<title>메인</title>
+</head>
+<body>
+<header>
+   <nav>
+      <a href="main.html"><img src="./banana.png" alt="banana" width="80" height="80"></a>
+        <a class="Name" href="main.html">바나나장터</a>
+        <a class="logmenu Join"  href="join.html">회원가입 </a>  
+        <a class="logmenu Login" href="login.html">로그인&nbsp&nbsp</a>    
+    </nav>
+ </header>
+ <div id="wrap">
+    <div class="category">
+       <div id="c1"><a href="category.html">카테고리</a></div>
+       <div id="c2"><a href="AISearch.html">인공지능 검색</a></div>
+         <div id="c3"><a href="Hits.html">인기매물</a></div>
+         <div id="c4"><a href="QnA.html">고객센터</a></div>
+   </div>
+   
+    <div>
+       <div class="logform" style="padding-top: 20px;">
+	   <h3 style="text-align: center;">회원가입</h3>
+	   <br>
+	   
+          <form name="login" method="post" action="/SE/join.php">
+             
+             
+                    <input type="text" placeholder="아이디" name="id" maxlength="20">   
+                
+                
+                    <input type="password" placeholder="비밀번호" name="password" maxlength="20">
+                
+                
+                    <input type="text" placeholder="이름" name="name" maxlength="20">
+                
+                
+                    <input type="text" placeholder="주민등록번호" name="id_num" maxlength="20">
+                
+                
+                    <input type="text" placeholder="주소" name="address" maxlength="20">
+                
+                <!--<div class="form-group" style="text-align: center;">
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-primary active">
+                            <input type="radio" name="gender" autocomplete="off" value="남자" checked>남자
+                        </label>
+                        <label class="btn btn-primary">
+                            <input type="radio" name="gender" autocomplete="off" value="여자" checked>여자
+                        </label>
+                    </div>
+                </div>-->
+				
+                    <input type="text" placeholder="sex" name="sex" maxlength="40">
+                
+                
+                    <input type="tel" placeholder="전화번호" name="phoneNumber" maxlength="40">
+                
+                
+                    <input type="email" placeholder="이메일" name="email" maxlength="40">
+                
+                <input type="submit"  value="회원가입">
+          </form>
+       </div>
+    </div>
+</body>
+</html>
